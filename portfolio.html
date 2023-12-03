@@ -7,16 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">  
   </head>
   <body>
-    <header style="border-bottom: 1px solid #ECECEC;"">
+    <header>
         <div class="container header">
             <a class="logo-link" href="index.html">Web<span>Studio</span></a>
             <nav class="nav">
                 <ul class="site-nav list">
                     <li class="item">
-                        <a class="link" href="/studio">Студія</a>
+                        <a class="link" href="index.html">Студія</a>
                     </li>
                     <li class="item">
-                        <a class="link" href="portfolio.html">Портфоліо</a>
+                        <a class="link current" href="portfolio.html">Портфоліо</a>
                     </li>
                     <li class="item">
                         <a  class="link" href="/contacts">Контакти</a>
@@ -25,10 +25,18 @@
             </nav>
             <ul class="contact list">
                 <li class="item">
-                    <a class="link" href = "mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link" href = "mailto:info@devstudio.com">
+                        <svg class="icon" width="16" height="12">
+                            <use href="images/symbol-defs.svg#icon-email"></use>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
                 <li class="item">
-                    <a class="link" href = "tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link" href = "tel:+380961111111">
+                        <svg class="icon" width="10" height="16">
+                            <use href="images/symbol-defs.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
                 </li> 
             </ul>
         </div>
@@ -55,149 +63,206 @@
                 </ul>
                 <ul  class="product-list list">
                     <li class="item">
-                        <figure>
-                            <img
-                                class="product-img"
-                                src="images/img (2).jpg"
-                                alt="laptop"
-                                width = "370"
-                            />
-                            <figcaption>
-                                <div class="title">Технокряк</div>
-                                <div class="sub-title">Веб-сайт</div>
-                                
-                            </figcaption>
-                        </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                    class="product-img"
+                                    src="images/img (2).jpg"
+                                    alt="laptop"
+                                    width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Технокряк</div>
+                                    <div class="sub-title">Веб-сайт</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (1) (1) 2.jpg"
-                            alt="basketball"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Постер New Orlean vs Golden Star</div>
-                            <div class="sub-title">Дизайн</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                    class="product-img"
+                                    src="images/img (1) (1) 2.jpg"
+                                    alt="basketball"
+                                    width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Постер New Orlean vs Golden Star</div>
+                                    <div class="sub-title">Дизайн</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (3) (1).jpg"
-                            alt="seafood"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Ресторан Seafood</div>
-                            <div class="sub-title">Додаток</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (3) (1).jpg"
+                                        alt="seafood"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Ресторан Seafood</div>
+                                    <div class="sub-title">Додаток</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (4) (1).jpg"
-                            alt="headphones"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Проєкт Prime</div>
-                            <div class="sub-title">Маркетинг</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (4) (1).jpg"
+                                        alt="headphones"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Проєкт Prime</div>
+                                    <div class="sub-title">Маркетинг</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (5) (1).jpg"
-                            alt="boxes"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Проєкт Boxes</div>
-                            <div class="sub-title">Додаток</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (5) (1).jpg"
+                                        alt="boxes"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Проєкт Boxes</div>
+                                    <div class="sub-title">Додаток</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (6) (1).jpg"
-                            alt="personal computer"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Inspiration has no Borders</div>
-                            <div class="sub-title">Веб-сайт</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (6) (1).jpg"
+                                        alt="personal computer"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Inspiration has no Borders</div>
+                                    <div class="sub-title">Веб-сайт</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (7) (1).jpg"
-                            alt="book"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Видання Limited Edition</div>
-                            <div class="sub-title">Дизайн</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (7) (1).jpg"
+                                        alt="book"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Видання Limited Edition</div>
+                                    <div class="sub-title">Дизайн</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (8) (1).jpg"
-                            alt="label"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Проєкт LAB</div>
-                            <div class="sub-title">Маркетинг</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (8) (1).jpg"
+                                        alt="label"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Проєкт LAB</div>
+                                    <div class="sub-title">Маркетинг</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="item">
-                    <figure>
-                        <img
-                            class="product-img"
-                            src="images/img (9) (1).jpg"
-                            alt="laptop with hands"
-                            width = "370"
-                        />
-                        <figcaption>
-                            <div class="title">Growing Business</div>
-                            <div class="sub-title">Додаток</div>
-                            
-                        </figcaption>
-                    </figure>
+                        <a class="product-link">
+                            <figure>
+                                <div class="product-thumb">
+                                    <img
+                                        class="product-img"
+                                        src="images/img (9) (1).jpg"
+                                        alt="laptop with hands"
+                                        width = "370"
+                                    />
+                                    <div class="overlay">
+                                        Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <div class="title">Growing Business</div>
+                                    <div class="sub-title">Додаток</div>
+                                    
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                 </ul>
         </div>
-        </section>
-        <div class="box">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia itaque quia
-            nobis fugit amet adipisci, corrupti animi, iusto eius a sed totam voluptas
-            porro. Dolorem aliquid rerum magnam eligendi aspernatur.
-        </div>
-      
+    </section>
     </main>
     <footer>
         <div class="container">
