@@ -281,28 +281,6 @@ body{
     box-shadow: 0px 2px 4px #757575;
 }
 
-.social {
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-evenly;
-    width: inherit;
-}
-
-.social .link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:#AFB1B8;
-    height: 44px;
-    width: 44px;
-}
-
-.social .link:hover{
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-
 .client-list{
     display:flex;
     justify-content: space-between;
@@ -402,7 +380,7 @@ body{
 footer{
     height: 252px;
     background-color: #2F303A;
-    padding-top: 60px;
+    padding: 60px 0;
 }
 
 footer .logo-link{    
@@ -495,4 +473,57 @@ footer .logo-link span{
     border-color: #0000001A;
     background-color: transparent;
     border-width: 1px;
+}
+
+.social {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+}
+
+.social .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+}
+
+.team-list .social .link{
+    color:#AFB1B8;
+}
+
+footer .container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer-social{
+    width: 206px;
+    margin-left: 70px;
+}
+
+.footer-social .social{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-social .social .link{
+    color:#FFFFFF;
+    background-color: #757575;
+}
+
+.social .link:hover{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.footer-social h5{
+    text-transform: uppercase;
+    margin:0;
+    padding: 0;
+    color:#FFFFFF;
 }
